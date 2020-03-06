@@ -187,7 +187,7 @@ database were made.
 1. Landing page: http://192.168.33.14:8080/helloworld
 2. Static html page: http://192.168.33.14:8080/helloworld/helloworld.html
 3. Web service 1 => Timestamp service: http://192.168.33.14:8080/helloworld/FirstServlet
-4. Web service 2 => TEST database table's content: http://192.168.33.14:8080/helloworld2/select
+4. Web service 2 => TEST database table's content: http://192.168.33.14:8080/helloworld/select
 
 5. Web service 3 => TEST database table's insert: use postman application and check if you can properly post
 data into the database and get proper response.
