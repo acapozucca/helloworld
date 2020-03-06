@@ -195,12 +195,12 @@ data into the database and get proper response.
 The url to use is: 
 
 ```
-http://192.168.33.14:8080/helloworld/insert
+http://192.168.33.14:8080/helloworld/insert?name=Hello2&value=1376
 ```
 
-Fill the parameters as you wish.
+You might change the parameters as you wish.
 
-The expected answer should be:
+The expected response should be:
 
 ```
 <html><body><b>Successfully Inserted</b></body></html>
