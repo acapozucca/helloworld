@@ -30,17 +30,19 @@ Laptop with at least 8 Gb memory (recommended 16 Gb, ideally 32 Gb)
 
 ## Set local working environment
 
-1- Import the given project into your favourite IDE
+1- Clone this repo
 
-2- Build the project using Maven. Either you do it from within the IDE, or from a terminal. From the terminal you must:
+2- Import the given project into your favourite IDE
 
-2.1-  Get to the directory
+3- Build the project using Maven. Either you do it from within the IDE, or from a terminal. From the terminal you must:
+
+3.1-  Get to the directory
 
 ```
 cd ~/<git_root_folder>/helloworld/product.helloworld
 ```
 
-2.2- Run the comand.
+3.2- Run the comand.
 
 ```
 mvn clean install
