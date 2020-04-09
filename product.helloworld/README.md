@@ -211,7 +211,7 @@ The expected response should be:
 
 ## Final remarks
 
-This guidelines explain how to come up with a development environment such that:
+These guidelines explain how to come up with a development environment such that:
 
 - the build of the application is automatically done using maven,
 - the setup of a local testing environment is automatically made using Vagrant, and
