@@ -92,9 +92,7 @@ Running this command should shown at the end of the output:
  default: Done.
 ```
 
-**Troubleshooting**
-
-* If you see error messages like:
+**Troubleshooting**: if you see error messages like:
 ```
 default: Extract into target directory
 default: 
