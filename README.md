@@ -92,6 +92,30 @@ Running this command should shown at the end of the output:
  default: Done.
 ```
 
+**Troubleshooting**
+
+* If you see error messages like:
+```
+default: Extract into target directory
+default: 
+default: gzip: stdin: not in gzip format
+default: tar: Child returned status 1
+default: tar: Error is not recoverable: exiting now
+```
+then (the most probable) is that the version of Tomcat used is not available any more.
+This has to be solved by editing the file
+```
+setup-tomcat.sh
+```
+and changing in the line
+```
+curl -o apache-tomcat-9.0.34.tar.gz https://downloads.apache.org/tomcat/tomcat-9/v9.0.34/bin//apache-tomcat-9.0.34.tar.gz
+```
+the value v9.0.34 for the latest available Tomcat version.
+
+
+
+
 
 
 ## Check local testing environment setup
