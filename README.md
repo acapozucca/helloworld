@@ -1,6 +1,6 @@
 # Web based Hello World application
 This case study is aimed at being used for running several experiments.
-That's the reason why it contains (so far) a DB and come web services.
+That's the reason why it contains (so far) a DB and some web services.
 
 
 ## Assumptions/Pre-requisites
