@@ -164,7 +164,7 @@ user and password: admin
 
 ## Run the application
 
-In order to try out the application, it frst has to be deployed in the virtual environment setup for such pourpose.
+In order to try out the application, it first has to be deployed in the virtual environment setup for such pourpose.
 This is done by executing the following steps:
 
 
