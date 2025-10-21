@@ -9,7 +9,7 @@ sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
 echo "Download Tomcat"
 cd /home/vagrant
 sudo apt-get -y install curl
-curl -o apache-tomcat-9.0.34.tar.gz https://downloads.apache.org/tomcat/tomcat-9/v9.0.34/bin//apache-tomcat-9.0.34.tar.gz
+curl -o apache-tomcat-9.0.34.tar.gz https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.34/bin/apache-tomcat-9.0.34.tar.gz
  
 # Extract into target directory
 echo "Extract into target directory"
